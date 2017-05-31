@@ -1,4 +1,4 @@
-package studio3;
+package GeneticAlgorithm;
 
 public class PopEle<PX, PF extends Comparable> {
     private PF fit;

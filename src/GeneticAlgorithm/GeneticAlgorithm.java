@@ -1,4 +1,4 @@
-package studio3;
+package GeneticAlgorithm;
 
 import java.util.*;
 import java.util.function.BiFunction;

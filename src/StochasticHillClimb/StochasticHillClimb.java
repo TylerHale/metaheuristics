@@ -1,4 +1,4 @@
-package studio1;
+package StochasticHillClimb;
 
 import java.util.function.Function;
 

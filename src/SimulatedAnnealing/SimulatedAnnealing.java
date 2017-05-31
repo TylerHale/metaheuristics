@@ -1,4 +1,4 @@
-package studio2;
+package SimulatedAnnealing;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

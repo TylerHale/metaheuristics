@@ -1,4 +1,4 @@
-import studio1.StochasticHillClimb;
+import StochasticHillClimb.StochasticHillClimb;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class Studio1 {
+public class RunStochasticHillClimbExample {
     private final Random __rng = new Random();
     private final Function<Double, Double> __ranF = (a) -> __rng.nextDouble() * (a - -a) + -a;
     private final double __range = 5.0f;
@@ -16,7 +16,7 @@ public class Studio1 {
             .collect(Collectors.toList());
 
     public static void main(String[] args) {
-        Studio1 m = new Studio1();
+        RunStochasticHillClimbExample m = new RunStochasticHillClimbExample();
         m.sphere(100, 2);
         m.sphere(500, 2);
         m.sphere(1000, 2);

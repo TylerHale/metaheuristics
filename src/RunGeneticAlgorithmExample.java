@@ -1,5 +1,5 @@
-import studio3.GeneticAlgorithm;
-import studio3.PopEle;
+import GeneticAlgorithm.GeneticAlgorithm;
+import GeneticAlgorithm.PopEle;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class Studio3 {
+public class RunGeneticAlgorithmExample {
 
     private static float valZ = 12501.4f * 100;
     private static Random rng = new Random();

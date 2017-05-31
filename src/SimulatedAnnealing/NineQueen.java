@@ -1,4 +1,4 @@
-package studio2;
+package SimulatedAnnealing;
 
 import java.util.*;
 import java.util.stream.Collectors;

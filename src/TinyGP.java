@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.util.Random;
 import java.util.StringTokenizer;
 
-public class tiny_gp {
+public class TinyGP {
     int MAX_XO = 100;
     private static final int
             ADD = 110,
@@ -36,7 +36,7 @@ public class tiny_gp {
     private double[] fitness;
     private char[][] pop;
 
-    private tiny_gp(String fname, long s) {
+    private TinyGP(String fname, long s) {
         fitness = new double[POPSIZE];
         seed = s;
         if (seed >= 0)
@@ -59,7 +59,7 @@ public class tiny_gp {
             fname = args[0];
         }
 
-        tiny_gp gp = new tiny_gp(fname, s);
+        TinyGP gp = new TinyGP(fname, s);
         gp.evolve();
     }
 
